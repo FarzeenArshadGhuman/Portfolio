@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> portfolio </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div class="user">
+        <img src="images/pic.jpg" alt="">
+        <h3 class="name">Farzeen Arshad Ghuman</h3>
+        <p class="post">Data Scientist</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#service">service</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- content section starts  -->
+
+<div class="container">
+
+    <section class="home" id="home">
+
+        <h3>hi there...</h3>
+        <h3 class="name">my name is <span>Farzeen Arshad Ghuman</span></h3>
+        <h3 class="post">a <span class="typing-text">Web developer</span></h3>
+
+        <a href="https://github.com/FarzeenArshadGhuman"><button class="btn">View more</button></a>
+
+        <div class="share">
+            <a href="https://www.linkedin.com/in/farzeen-arshad-ghuman-680263234/" class="fab fa-linkedin"></a>
+            <a href="https://github.com/FarzeenArshadGhuman" class="fab fa-github"></a>
+            <!-- <a href="#" class="fab fa-instagram"></a> -->
+        </div>
+
+    </section>
+
+    <!-- about section  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading">about me</h1>
+
+        <div class="content">
+            <h3 class="name">my name is <span>Farzeen Arshad Ghuman</span></h3>
+            <p>A data scientist, AI enthusiast, and full stack developer focused on building smart, scalable, and impactful digital solutions. My journey began with a love for coding and data, which soon evolved into a passion for solving real-world problems using machine learning, artificial intelligence, and modern web technologies. Since 2019, I’ve been crafting intelligent systems and intuitive user experiences blending clean code with creative thinking.</p>                    
+        </div>
+        <div class="skills">
+            <div class="progress">
+                <h3>Front-End (HTML, CSS, JavaScript, React, Bootstrap) <span>95%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Back-End (Node.js, PHP, MySQL, SQL, Express) <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Data Science & AI (Python, ML, TensorFlow, Sklearn, Hugging Face) <span>94%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Tools & Visualization (Power BI, Tableau, Git, Firebase) <span>95%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>            
+        </div>
+
+    </section>
+
+    <!-- service section  -->
+    <section class="service" id="service">
+
+        <h1 class="heading">my services</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <p>Full Stack Development<br>(HTML, CSS, JavaScript, React, Node.js)</p>
+            </div>
+        
+            <div class="box">
+                <i class="fas fa-database"></i>
+                <p>Backend & Databases<br>(PHP, SQL, MySQL, Express)</p>
+            </div>
+        
+            <div class="box">
+                <i class="fas fa-brain"></i>
+                <p>Data Science & AI<br>(Python, ML, TensorFlow, Hugging Face)</p>
+            </div>
+        
+            <div class="box">
+                <i class="fas fa-chart-line"></i>
+                <p>Data Visualization<br>(Power BI, Tableau, Dashboards)</p>
+            </div>
+        
+            <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <p>UI/UX & Graphic Design<br>(Figma, Adobe XD, Photoshop)</p>
+            </div>
+        
+            <div class="box">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <p>Deployment & Cloud<br>(Firebase, Streamlit, Hugging Face Spaces)</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- education section  -->
+
+    <section class="education" id="education">
+
+        <h1 class="heading">my education</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="year">2019 - 2020</div>
+                <h3>Web Development</h3>
+                <p>Focused on front-end and back-end technologies, building dynamic web applications and mastering UI/UX design.</p>
+                <a href="https://github.com/FarzeenArshadGhuman?tab=repositories" target="_blank"style="
+                display: inline-block;
+                padding: 10px 20px;
+                font-size: 18px;
+                font-weight: bold;
+                text-decoration: none;
+                color: #fff;
+                background-color: #b59e6d;
+                border-radius: 5px;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                text-align: center;
+                cursor: pointer;">View Projects</a>
+                <script>
+                    document.querySelector("a").addEventListener("mouseover", function() {
+                        this.style.transform = "scale(1.1)";
+                        this.style.boxShadow = "0 6px 12px rgba(0, 0, 0, 0.2)";
+                    });
+                    document.querySelector("a").addEventListener("mouseout", function() {
+                        this.style.transform = "scale(1)";
+                        this.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.1)";
+                    });
+                </script>
+            </div>
+        
+            <div class="box">
+                <div class="year">2020 - 2024</div>
+                <h3>Data Science</h3>
+                <p>Bachelor of Science in Data Science, GIFT University, Gujranwala, Pakistan. Focused on machine learning, AI, data analysis, and statistics.</p>
+                <a href="https://github.com/FarzeenArshadGhuman?tab=repositories" target="_blank"style="
+                display: inline-block;
+                padding: 10px 20px;
+                font-size: 18px;
+                font-weight: bold;
+                text-decoration: none;
+                color: #fff;
+                background-color: #b59e6d;
+                border-radius: 5px;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                text-align: center;
+                cursor: pointer;">View Projects</a>
+                <script>
+                    document.querySelector("a").addEventListener("mouseover", function() {
+                        this.style.transform = "scale(1.1)";
+                        this.style.boxShadow = "0 6px 12px rgba(0, 0, 0, 0.2)";
+                    });
+                    document.querySelector("a").addEventListener("mouseout", function() {
+                        this.style.transform = "scale(1)";
+                        this.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.1)";
+                    });
+                </script>
+            </div>
+        </div>
+        
+        
+
+    </section>
+
+    <!-- contact section  -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading">contact me</h1>
+
+        <div class="row">
+
+            <div class="content">
+                <div class="icons">
+                    <h3><i class="fas fa-map-marker-alt"></i> address </h3>
+                    <p>Gujranwala,Pakistan</p>
+                </div>
+                <div class="icons">
+                    <h3><i class="fas fa-envelope"></i> email </h3>
+                    <p>farzeenarshadghuman@gmail.com</p>
+                </div>
+                <!-- <div class="icons">
+                    <h3><i class="fas fa-phone"></i> phone </h3>
+                    <p>+92 3016641697</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+<!-- content section ends -->
+
+<!-- theme toggler  -->
+
+ <div class="theme-toggler">
+    <span style="background: linear-gradient(deeppink, purple);"></span>
+    <span style="background: linear-gradient(lightgreen, crimson);"></span>
+    <span style="background:linear-gradient(blueviolet, deeppink)"></span>
+    <span style="background:linear-gradient(coral, blueviolet)"></span>
+    <span style="background:linear-gradient(#999, #111)"></span>
+</div>
+
+
+<!-- type.js cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+<script>
+    var type = new Typed('.typing-text', {
+        strings: ['Data Scientist','Data Scientist'],
+        typeSpeed: 120,
+        loop: true
+    });
+
+    // Theme color toggler
+    let themeColor = document.querySelectorAll('.theme-toggler span');
+    themeColor.forEach(color => color.addEventListener('click', () => {
+        let background = color.style.background;
+        document.querySelector('body').style.background = background;
+    }));
+</script>
+
+</body>
+</html>
