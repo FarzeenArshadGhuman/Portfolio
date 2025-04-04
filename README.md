@@ -1,5 +1,9 @@
 # Portfolio
 Welcome to my portfolio repository! 🎨💻
+Live Demo:
+Check out the live version of my portfolio here:
+👉 [**Live Portfolio**](https://farzeenarshadghuman.github.io/Portfolio/)
+
 
 💼 About Me
 Hi, I'm Farzeen Arshad Ghuman — a passionate and results-driven Data Scientist, Machine Learning & AI Engineer, and Full Stack Developer with a strong foundation in data-driven problem solving and modern web technologies.
